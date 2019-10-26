@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+ul{
+  width: 90%;
+}
+li{
+  list-style: none;
+  padding: .5rem;
+  margin: .5rem;
+  border-top-right-radius: 100px 200px;
+  background-color: #D1E8E2;
+  float:right;
+  width:9%;
+  text-align:center;
+}
+li a:link{
+  text-decoration: none;
+  color:blue;
+}
+li a:hover{
+  color:red;
+  background: #659DBD;
+  padding:.5rem;
+}
+li a:visited{
+  color:green;
+}
+img{
+  width: 40%;
+}
+.my-name{
+  font-family: Times, TimesNR, 'New Century Schoolbook',
+     Georgia, 'New York', serif;
+  font-size: 3rem;
+  color: #5680E9;
+}
+.my-title{
+  font-family: Times, TimesNR, 'New Century Schoolbook',
+     Georgia, 'New York', serif;
+     font-size: 1.5rem;
+     font-style: italic;
+     color: #5AB9EA;
+}
+.introduce{
+  font-size: 1.2rem;
+  color: #E98074;
+}
+.first-word{
+  font-size: 2rem;
+  text-decoration: underline;
+}

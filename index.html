@@ -2,43 +2,52 @@
 <html lang = "en">
   <head>
     <meta charset = "utf-8">
-    <title>Main page</title>
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
   </head>
   <body>
     <header>
       <nav>
-        <p>This is nav in the header area</p>
         <ul>
           <li>
             <a href="index.html">Home</a>
           </li>
+          <li>
+            <a href=“#”>Resume</a>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+          </li>
+          <li>
+            <a href="#">Skills</a>
+          </li>
+          <!-- need remove after grade -begin -->
           <li>
             <a href="page-semantic-assignment1.html">Semantic</a>
           </li>
           <li>
             <a href="page-roles-assignment2.html">Roles</a>
           </li>
+            <!-- need remove after grade -end -->
         </ul>
       </nav>
     </header>
     <main>
       <article>
-        <h1>The main page includes two pages</h1>
-        <p>One page was made in assignment1. The other one was made tonight.</p>
-        <section>
-          <h2>Semantic</h2>
-          <figure>
-            <img src="images/1.jpg"
-                 alt="meno"
-                 height="333"
-                 width="444"
-            >
-            <figcaption>
-              <a href="page-semantic-assignment1.html">See the content click here</a>
-            </figcaption>
-          </figure>
-          <p>This is a summary for semantic elements.</p>
-        </section>
+        <h1 class="my-name">Jingting Liu</h1>
+        <h2 class="my-title">Front End Developer</h2>
+        <p class="introduce"><span class="first-word">Hello</span>, My name is Jingting Liu. I have a diverse set of skills,
+          ranging from design, to HTML + CSS + javascript, all the way to
+          PHP,java, C# development.</p>
+        <figure>
+          <img src="images/globe.png"
+                 alt="globe"
+          >
+          <figcaption>
+            <a href="page-semantic-assignment1.html">See the assignment click here</a>
+          </figcaption>
+        </figure>
+        <p>This is a summary for semantic elements.</p >
         <section>
           <h2>Web Team Roles</h2>
           <figure>
@@ -48,7 +57,7 @@
                  width="444"
             >
             <figcaption>
-              <a href="page-roles-assignment2.html">See the content click here</a>
+              <a href="page-roles-assignment2.html">See the 5 roles click here</a>
             </figcaption>
           </figure>
           <p>This is five roles.</p>
@@ -57,6 +66,6 @@
     </main>
     <footer>
       <p>Posted by: Jingting </p>
-    </footer>  
+    </footer>
   </body>
 </html>
