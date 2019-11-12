@@ -1,10 +1,25 @@
 *{
   box-sizing: border-box;
 }
+.top-social {
+  display: flex;
+  justify-content: flex-end;
+}
+.top-social li {
+  list-style: none;
+  padding: .5rem;
+}
+.fa-envelope {
+  color: red;
+}
+.fa-linkedin-in {
+  color: blue;
+}
+
 ul{
   width: 90%;
 }
-li{
+nav li{
   list-style: none;
   padding: .5rem;
   margin: .5rem;
@@ -34,19 +49,31 @@ img{
      Georgia, 'New York', serif;
   font-size: 3rem;
   color: #5680E9;
+  padding-left: 6rem;
+  padding-top: 2rem
 }
 .my-title{
   font-family: Times, TimesNR, 'New Century Schoolbook',
-     Georgia, 'New York', serif;
-     font-size: 1.5rem;
-     font-style: italic;
-     color: #5AB9EA;
+  Georgia, 'New York', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #5AB9EA;
+  padding-left: 6rem;
+
 }
 .introduce{
   font-size: 1.2rem;
+  font-family: Helvetica, "Times New Roman";
+  line-height: 3rem;
   color: #E98074;
+  float: right;
+  max-width: 60%;
+  padding-right: 6rem;
 }
 .first-word{
   font-size: 2rem;
   text-decoration: underline;
+}
+.my-title {
+  font-family: 'Yeon Sung', cursive;
 }
