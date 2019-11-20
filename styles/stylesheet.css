@@ -7,11 +7,14 @@
 }
 .top-social li {
   list-style: none;
-  padding: .5rem;
+  padding: 1.5rem;
+
 }
+
 .fa-envelope {
   color: red;
 }
+
 .fa-linkedin-in {
   color: blue;
 }
@@ -41,8 +44,20 @@ li a:hover{
 li a:visited{
   color:green;
 }
-img{
-  width: 40%;
+/* underneath main page styles */
+.home-page img:nth-child(3) {
+  width: 10%;
+  transition: all 0.5s ease;
+  position: relative;
+  left:9rem;
+}
+.home-page img:nth-child(3):hover {
+  transform: rotate(-10deg);
+}
+.home-page img[alt="globe"] {
+  clear: both;
+  background-color: blue;
+  width: 50%;
 }
 .my-name{
   font-family: Times, TimesNR, 'New Century Schoolbook',
@@ -77,3 +92,37 @@ img{
 .my-title {
   font-family: 'Yeon Sung', cursive;
 }
+/* above main page styles */
+/*underneath projects page*/
+.projects-page h1 {
+  text-align: center;
+}
+.projects-pictures-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.projects-pictures-container img {
+  transition: all 0.5s ease;
+}
+.projects-pictures-container img:first-child {
+  width: 20%;
+}
+.projects-pictures-container img:nth-child(2) {
+  width: 20%;
+}
+.projects-pictures-container img:nth-child(3) {
+  width: 20%;
+}
+.projects-pictures-container img:last-child {
+  width: 20%;
+}
+.projects-pictures-container img:nth-child(even):hover {
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
+.projects-pictures-container img:nth-child(odd):hover {
+  border: 70px solid #000;
+  border-radius: 50%;
+}
+/* above projects page */
