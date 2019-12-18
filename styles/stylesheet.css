@@ -126,3 +126,37 @@ li a:visited{
   border-radius: 50%;
 }
 /* above projects page */
+/* contact form page start */
+.contact-form-page h1 {
+  text-align: center;
+}
+.contact-form-page main p:nth-child(2) {
+  padding-left: 9rem;
+}
+.contact-form-page form {
+  width: 80%;
+  margin: auto;
+}
+.contact-form-page main p {
+  padding-top: 1rem;
+}
+.contact-form-page button, input, select, textarea, p, label {
+  font-family: inherit;
+  font-size: 100%;
+}
+.contact-form-page input {
+  display: block;
+  border-radius: 10px;
+}
+.contact-form-page input[type="radio"], .contact-form-page input[type="checkbox"] {
+  display: inline;
+}
+.contact-form-page textarea {
+  vertical-align: middle;
+  display: block;
+  resize: none;
+}
+.contact-form-page legend {
+  color: blue;
+}
+/*contact form page end */

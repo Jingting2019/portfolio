@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>contact form</title>
+    <script src="https://kit.fontawesome.com/1cedf5735d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  </head>
+  <body class="contact-form-page">
+    <header>
+      <ul class="top-social">
+        <li><i class="far fa-envelope"></i></li>
+        <li><i class="fab fa-linkedin-in"></i></li>
+        <li><i class="fab fa-facebook-square"></i></li>
+      </ul>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Skills</a>
+          </li>
+          <li>
+            <a href=“#”>Resume</a>
+          </li>
+          <li>
+            <a href="projects.html">Projects</a>
+          </li>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Contact Me</h1>
+      <p>If you are interested in my website, please fill the form and answer any
+        questions you like to share with me.
+      </p>
+      <form action="/action.php" method="GET"  target="_self">
+        <fieldset>
+          <legend>Basic Information</legend>
+          <label>First Name:
+            <input type="text" name="first-name" required>
+          </label>
+          <label>Last Name:
+            <input type="text" name="last-name">
+          </label>
+          <label>Email:
+            <input type="email" name="email" required>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Other Information</legend>
+          <label>Tel:
+            <input type="tel" name="tel">
+          </label>
+          <label>Your Website:
+            <input type="url" name="url">
+          </label>
+          <label>What is the highest level of education that you has completed?
+            <select name="education">
+              <optgroup label="Formal Education">
+                <option value="under high school">Did not finish high school</option>
+                <option value="high school">High School Diploma or GED</option>
+                <option value="associate">2-year college degree(Associate's)</option>
+                <option value="bachelor">4-year college degree(Bachelor's)</option>
+                <option value="master" selected>Master's degree</option>
+                <option value="phd">PhD or other advanced professional degree</option>
+              </optgroup>
+              <optgroup label="Informal Education">
+                <option value="online course (such as coursera)">online course (such as coursera)</option>
+              </optgroup>
+              <optgroup label="Non-formal Education">
+                <option value="volunteering">Volunteering</option>
+                <option value="national civil service">National civil service</option>
+                <option value="private social service">Private social service</option>
+                <option value="other">Other</option>
+              </optgroup>
+            </select>
+          </label>
+          <div>
+            <p>Position type(check one):</p>
+            <label>
+              <input type="radio" name="position" value="student">student
+            </label>
+            <label>
+              <input type="radio" name="position" value="stuff">stuff
+            </label>
+            <label>
+              <input type="radio" name="position" value="volunteer">volunteer
+            </label>
+            <label>
+              <input type="radio" name="position" value="others">others
+            </label>
+          </div>
+          <div>
+            <p>Which language do you like?</p>
+            <label>
+              <input type="checkbox" name="language[]" value="css">css
+            </label>
+            <label>
+              <input type="checkbox" name="language[]" value="javascript">javascript
+            </label>
+            <label>
+              <input type="checkbox" name="language[]" value="html">html
+            </label>
+            <label>
+              <input type="checkbox" name="language[]" value="java">java
+            </label>
+            <label>
+              <input type="checkbox" name="language[]" value="c#">c#
+            </label>
+            <label>
+              <input type="checkbox" name="language[]" value="c">c
+            </label>
+            <label>
+              <input type="checkbox" name="language[]" value="c++">c++
+            </label>
+            <label>
+              <input type="checkbox" name="language[]" value="php">php
+            </label>
+            <label for="python"></label>
+            <input type="checkbox" name="language[]" value="python" id="python">python
+          </div>
+          <label>Message
+            <textarea name="message" rows="10" cols="30">
+              Enter here
+            </textarea>
+          </label>
+          <input type="submit" name="submit" value="click to submit">
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <p>Posted by: Jingting </p>
+    </footer>
+  </body>
+</html>
