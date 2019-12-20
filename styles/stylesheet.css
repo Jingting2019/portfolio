@@ -1,6 +1,14 @@
 *{
   box-sizing: border-box;
 }
+.hidden {
+  position: relative;
+  left: -1000px;
+  top: auto;
+}
+.hidden:focus {
+  left: 0;
+}
 .top-social {
   display: flex;
   justify-content: flex-end;
@@ -54,7 +62,7 @@ li a:visited{
 .home-page img:nth-child(3):hover {
   transform: rotate(-10deg);
 }
-.home-page img[alt="globe"] {
+.home-page img[alt="a globe image as the background of the main page"] {
   clear: both;
   background-color: blue;
   width: 50%;
