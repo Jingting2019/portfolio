@@ -1,6 +1,9 @@
 *{
   box-sizing: border-box;
 }
+body {
+  margin: 0;
+}
 .hidden {
   position: relative;
   left: -1000px;
@@ -26,7 +29,10 @@
 .fa-linkedin-in {
   color: blue;
 }
-
+header {
+  
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
 ul{
   width: 90%;
 }

@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a:link {
+  text-decoration: none;
+}

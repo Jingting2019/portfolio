@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevJane Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="projects.html" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="https://github.com/Jingting2019" class="nav__link">Code</a></li>
+                    <li class="nav__item"><a href="mailto:fengshahuang@gmail.com" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Jingting Liu</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Web Developer</p>
+            <img src="images/my-photo-flower.jpg" alt="a picture of Jingting smiling" class="intro__img">
+        </section>
+
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design</h3>
+                    <p>•	Design posters and flyers using Adobe Photoshop and Adobe Illustrator</p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Development</h3>
+                    <p>•	Building multi-platform (Desktop, Mobile, Tablet) web pages using HTML, CSS, and JavaScript.</p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>WordPress</h3>
+                    <p>•	Building multi-platform web pages for Non-profit organization</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+
+            <a href="projects.html" class="btn">See my work</a>
+        </section>
+
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Developer & designer</p>
+
+           <div class="about-me__body">
+               <p>I received my master’s degree in Engineering and have over three years’ working experience in the IT domain working at a large university.Over the three years at work, I became proficient in HTML, Java, C# and Adobe Photoshop.  With new technology, I continuously update my skills and I also take a certificate program in the UW. </p>
+           </div>
+
+           <img src="images/my-photo-blue-sky.jpg" alt="Jingting stands in a mountain" class="about-me__img">
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/adopt-dog.gif" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/helpingLink.gif" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images/kitty.gif" alt="" class="portfolio__img">
+                </a>
+            </div>
+            <a href="projects.html" class="btn">Learn more>></a>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:fengshahuang@gmail.com" class="footer__link">fengshahuang@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="mailto:fengshahuang@gmail.com">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/jingting-liu2019">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Jingting2019">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
