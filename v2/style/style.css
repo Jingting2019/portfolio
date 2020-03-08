@@ -491,8 +491,13 @@ header {
   display: inline;
 }
 
+.portfolio-item-individual-tile li {
+  font-weight: 550;
+}
+
 .portfolio-item-individual-tile a {
   text-decoration: none;
+
 }
 
 .portfolio-item-individual-tile {
